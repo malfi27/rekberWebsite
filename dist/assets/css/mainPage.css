@@ -194,12 +194,10 @@
 
 .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .textNotifikasi {
   margin-right: 1rem;
-  font-size: 10px;
   color: #4f4f4f;
 }
 
 .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .timeNotifikasi {
-  font-size: 10px;
   color: #828282;
 }
 
@@ -300,6 +298,15 @@
     font-size: 16px;
     margin-bottom: .5rem;
   }
+  .mainContent .container .lines .notificationSection .notifikasi {
+    margin-bottom: .7rem;
+  }
+  .mainContent .container .lines .notificationSection .notifikasi .textNotifikasi {
+    font-size: 10px;
+  }
+  .mainContent .container .lines .notificationSection .notifikasi .timeNotifikasi {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -371,6 +378,12 @@
     font-size: 20px;
     margin-bottom: 1rem;
   }
+  .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .textNotifikasi {
+    font-size: 10px;
+  }
+  .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .timeNotifikasi {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -424,5 +437,11 @@
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .idRoom {
     display: block;
     font-size: 12px;
+  }
+  .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .textNotifikasi {
+    font-size: 12px;
+  }
+  .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .timeNotifikasi {
+    font-size: 10px;
   }
 }

@@ -174,11 +174,9 @@ $gray5 : rgba(224, 224, 224, 1);
                         padding: 1rem;
                         .textNotifikasi {
                             margin-right: 1rem;
-                            font-size: 10px;
                             color: $gray2;
                         }
                         .timeNotifikasi {
-                            font-size: 10px;
                             color: $gray3;
                         }
                     }
@@ -296,6 +294,15 @@ $gray5 : rgba(224, 224, 224, 1);
                         font-size: 16px;
                         margin-bottom: .5rem;
                     }
+                    .notifikasi {
+                        margin-bottom: .7rem;
+                        .textNotifikasi {
+                            font-size: 10px;
+                        }
+                        .timeNotifikasi {
+                            font-size: 10px;
+                        }
+                    }
                 }
             }
         }
@@ -382,6 +389,16 @@ $gray5 : rgba(224, 224, 224, 1);
                         font-size: 20px;
                         margin-bottom: 1rem;
                     }
+                    .wrapperNotifikasi {
+                        .notifikasi {
+                            .textNotifikasi {
+                                font-size: 10px;
+                            }
+                            .timeNotifikasi {
+                                font-size: 10px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -459,6 +476,18 @@ $gray5 : rgba(224, 224, 224, 1);
                                     display: block;
                                     font-size: 12px;
                                 }
+                            }
+                        }
+                    }
+                }
+                .notificationSection {
+                    .wrapperNotifikasi {
+                        .notifikasi {
+                            .textNotifikasi {
+                                font-size: 12px;
+                            }
+                            .timeNotifikasi {
+                                font-size: 10px;
                             }
                         }
                     }

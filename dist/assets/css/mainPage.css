@@ -201,6 +201,29 @@
   color: #828282;
 }
 
+footer {
+  background: #ef2463;
+  padding: 1.5rem 0;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container .pilatekSince img {
+  width: 100%;
+}
+
+footer .container .pilatekSince p {
+  color: #fff;
+}
+
+footer .container a img {
+  width: 100%;
+}
+
 @media screen and (min-width: 0px) {
   .mainContent .container .wrapperBanner {
     margin-bottom: 1.5rem;
@@ -307,6 +330,16 @@
   .mainContent .container .lines .notificationSection .notifikasi .timeNotifikasi {
     font-size: 10px;
   }
+  footer .container .pilatekSince img {
+    margin-bottom: .5rem;
+    max-width: 80px;
+  }
+  footer .container .pilatekSince p {
+    font-size: 12px;
+  }
+  footer .container a img {
+    max-width: 120px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -383,6 +416,15 @@
   }
   .mainContent .container .lines .notificationSection .wrapperNotifikasi .notifikasi .timeNotifikasi {
     font-size: 10px;
+  }
+  footer .container .pilatekSince img {
+    max-width: 140px;
+  }
+  footer .container .pilatekSince p {
+    font-size: 14px;
+  }
+  footer .container a img {
+    max-width: 180px;
   }
 }
 

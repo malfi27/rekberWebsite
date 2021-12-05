@@ -1,0 +1,372 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Variable REKBER*/
+$primary-color :rgba(239, 36, 99, 1);
+$pink-first :rgba(253, 216, 228, 1);
+$pink-second :rgba(253, 226, 235, 1);
+$gray1 : rgba(51, 51, 51, 1);
+$gray2 : rgba(79, 79, 79, 1);
+$gray3 : rgba(130, 130, 130, 1);
+$gray4 : rgba(189, 189, 189, 1);
+$gray5 : rgba(224, 224, 224, 1);
+
+
+.mainContent {
+    .container {
+        .wrapperBanner {
+            .banner {
+                transition: .5s;
+                img {
+                    width: 100%;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .lines {
+            display: flex;
+            .saldoInformation {
+                font-family: 'Montserrat', sans-serif;
+                transition: .5s;
+                .nameCards {
+                    font-weight: 600;
+                }
+                .saldo {
+                    font-weight: 700;
+                    color: $gray2;
+
+                    .valueSaldo {
+                        word-wrap: break-word;
+                    }
+                }
+                .wrapperButton {
+                    display: flex;
+                    .btns {
+                        border: 1px solid #E0E0E0;
+                        text-align: center ;
+                        text-decoration: none;
+                        width: 100%;
+                        border-radius: 15px;
+                        transition: background .3s;
+                        &:hover {
+                            background: rgba(143, 140, 140, 0.1);
+                            transition: background .3s;
+                        }
+                        svg {
+                            width: 100%;
+                        }
+                        p {
+                            color: $gray3;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .productRekber {
+                font-family: 'Poppins', sans-serif;
+                transition: .5s;
+                .nameCards {
+                    font-weight: 600;
+                }
+                .wrapperProduct {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .product {
+                        text-align: center;
+                        text-decoration: none;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        .icon {
+                            border: 1px solid #E0E0E0;
+                            border-radius: 50%;
+                            background: #fff;
+                            transition: background .3s;
+                            &:hover {
+                                background: rgba(143, 140, 140, 0.1);
+                                transition: background .3s;
+                            }
+                            svg {
+                                width: 100%;
+                            }
+                        }
+                        .nameProduct {
+                            color: $gray2;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            .wrapperHistoryTransaksi {
+                .nameCards {
+                    font-weight: 600;
+                }
+                .wrapperTransaksi {
+                    display: flex;
+                    .transaksi {
+                        display: block;
+                        font-family: 'Poppins', sans-serif;
+                        text-decoration: none;
+                        .imgItem {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            .items-images {
+                                position: relative;
+                                img {
+                                    width: 100%;
+                                    border-radius: 20px;
+                                }
+                                .label {
+                                    position: absolute;
+                                    color: #fff;
+                                    border-radius: 20px 0 20px 0;
+                                }
+                                .pembeli {
+                                    background: #27AE60;
+                                }
+                                .penjual {
+                                    background: $primary-color;
+                                }
+                            }
+                        }
+                        .nameItems {
+                            text-align: start;
+                            color: $gray2;
+                        }
+                        .detailItems {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .harga {
+                                color: $gray3;
+                            }
+                            .idRoom {
+                                background: $primary-color;
+                                border-radius: 6px;
+                                width: max-content;
+                                color: #fff;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width : 0px) {
+    .mainContent {
+        .container {
+            .wrapperBanner {
+                margin-bottom: 1.5rem;
+            }
+            .lines {
+                flex-direction: column;
+                margin-bottom: 1.5rem;
+                .saldoInformation {
+                    margin-bottom: 1.5rem;
+                    .nameCards {
+                        font-size: 16px;
+                        margin-bottom: .2rem;
+                    }
+                    .saldo {
+                        font-size: 28px;
+                        margin-bottom: 1rem;
+                    }
+                    .wrapperButton {
+                        .btns {
+                            padding: 1rem;
+                            &:first-child {
+                                margin-right: 1rem;
+                            }
+                            svg {
+                                max-width: 18px;
+                            }
+                            p {
+                                margin-top: .5rem;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .productRekber {
+                    .nameCards {
+                        font-size: 16px;
+                        margin-bottom: .2rem;
+                    }
+                    .wrapperProduct {
+                        .product {
+                            max-width: 71.9px;
+                            margin: .5rem .3rem;
+                            .icon {
+                                padding: 1rem 1.4rem;
+                                width: max-content;
+                                svg {
+                                    max-width: 18px;
+                                }
+                            }
+                            .nameProduct {
+                                margin-top: .3rem;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .wrapperHistoryTransaksi {
+                    .nameCards {
+                        font-size: 16px;
+                        margin-bottom: .5rem;
+                    }
+                    .wrapperTransaksi {
+                        flex-direction: row;
+                        .transaksi {
+                            padding: 1rem;
+                            margin-right: 1rem;
+                            .imgItem {
+                                margin-bottom: 1rem;
+                                .items-images {
+                                    img {
+                                        max-width: 214px;
+                                    }
+                                    .label {
+                                        bottom: 0;
+                                        right: 0px;
+                                        padding: .5rem;
+                                    }
+                                }
+                            }
+                            .nameItems {
+                                font-size: 18px;
+                            }
+                            .detailItems {
+                                margin-top: .5rem;
+                                .harga {
+                                    font-size: 14px;
+                                }
+                                .idRoom {
+                                    padding: .5rem;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width : 992px) {
+    .mainContent {
+        .container {
+            .lines {
+                flex-direction: row;
+                .saldoInformation {
+                    margin-right: 1.5rem;
+                    margin-bottom: 0;
+                    width: 40%;
+                    .nameCards {
+                        font-size: 20px;
+                        margin-bottom: .5rem;
+                    }
+                    .saldo {
+                        font-size: 38px;
+                    }
+                    .wrapperButton {
+                        .btns {
+                            padding: 1.7rem;
+                            &:first-child {
+                                margin-right: 2rem;
+                            }
+                            svg {
+                                max-width: 28px;
+                            }
+                            p {
+                                margin-top: .5rem;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .productRekber {
+                    width: 60%;
+                    .nameCards {
+                        font-size: 20px;
+                        margin-bottom: 1rem;
+                    }
+                }
+                .wrapperHistoryTransaksi {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .mainContent {
+        .container {
+            .lines {
+                .productRekber {
+                    .wrapperProduct {
+                        .product {
+                            max-width: 88px;
+                            margin: 1rem 1rem;
+                            .icon {
+                                padding: 1.6rem 2rem;
+                                width: max-content;
+                                svg {
+                                    max-width: 26px;
+                                }
+                            }
+                            .nameProduct {
+                                margin-top: .5rem;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1400px) {
+    .mainContent {
+        .container {
+            .lines {
+                .productRekber {
+                    .wrapperProduct {
+                        .product {
+                            max-width: 110px;
+                            margin: 1rem 1rem;
+                            .icon {
+                                padding: 2rem 2.5rem;
+                                width: max-content;
+                                svg {
+                                    max-width: 32px;
+                                }
+                            }
+                            .nameProduct {
+                                margin-top: .5rem;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

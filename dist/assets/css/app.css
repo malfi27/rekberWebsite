@@ -1,0 +1,243 @@
+/*Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*------------
+Resset Css
+------------*/
+*, ::after, ::before, h1, h2, h3, h4, h5, h6, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/*Variable REKBER*/
+.nameCards {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+.cards {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 1.4rem 1.5rem;
+}
+
+.miniCards {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.btn {
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: #ef2463;
+  border: #ef2463;
+}
+
+.btn-primary:hover {
+  background: #D41B54;
+}
+
+.btn-primary:focus {
+  background: #ef2463;
+}
+
+.mainHeader {
+  border-bottom: 2px solid #E0E0E0;
+  background: #fff;
+}
+
+.mainHeader .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .5s;
+}
+
+.mainHeader .container .rekberBrand img {
+  width: 100%;
+  transition: .5s;
+}
+
+.mainHeader .container .mainControl {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader .container .mainControl .btn-group {
+  position: relative;
+}
+
+.mainHeader .container .mainControl .btn-group .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-radius: 10px 0 0 10px;
+}
+
+.mainHeader .container .mainControl .btn-group .dropdown-toggle-split {
+  border-radius: 0 10px 10px 0;
+  background: #D41B54;
+}
+
+.mainHeader .container .mainControl .btn-group .dropdown-toggle-split svg {
+  width: 100%;
+}
+
+.mainHeader .container .mainControl .btn-group .dropdown-menu .dropdown-item {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.mainHeader .container .mainControl .btn-group .dropdown-menu-center {
+  right: auto !important;
+  left: 50% !important;
+  transform: translate(-50%, 0) !important;
+}
+
+.mainHeader .container .mainControl .nameUser {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.mainHeader .container .mainControl .profil {
+  margin: 0 .5rem;
+}
+
+.mainHeader .container .mainControl .profil .btn-dropdown {
+  background: none;
+}
+
+.mainHeader .container .mainControl .profil .btn-dropdown::after {
+  content: '';
+  background: #ef2463;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: block;
+  border-radius: 50%;
+}
+
+.mainHeader .container .mainControl .profil .btn-dropdown img {
+  width: 100%;
+  border-radius: 50%;
+  transition: .5s;
+  position: relative;
+}
+
+.mainHeader .container .mainControl .profil .dropdown-menu .dropdown-item {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 0px) {
+  .mainHeader {
+    padding: 1.5rem 0;
+  }
+  .mainHeader .container .rekberBrand img {
+    max-width: 48px;
+  }
+  .mainHeader .container .mainControl .btn-group {
+    margin: 0 .5rem;
+  }
+  .mainHeader .container .mainControl .btn-group .btn {
+    padding: .7rem 1rem;
+    font-size: 12px;
+  }
+  .mainHeader .container .mainControl .btn-group .dropdown-toggle-split svg {
+    max-width: 10px;
+  }
+  .mainHeader .container .mainControl .btn-group .dropdown-menu {
+    top: 140% !important;
+  }
+  .mainHeader .container .mainControl .btn-group .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  .mainHeader .container .mainControl .nameUser {
+    margin: 0 .5rem;
+  }
+  .mainHeader .container .mainControl .profil {
+    margin: 0 .5rem;
+  }
+  .mainHeader .container .mainControl .profil .btn-dropdown::after {
+    height: 10px;
+    width: 10px;
+  }
+  .mainHeader .container .mainControl .profil .btn-dropdown img {
+    max-width: 46px;
+  }
+  .mainHeader .container .mainControl .profil .dropdown-menu {
+    top: 20% !important;
+  }
+  .mainHeader .container .mainControl .profil .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  .mainContent {
+    padding-top: 124px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mainHeader {
+    padding: 1.5rem 0;
+  }
+  .mainHeader .container .rekberBrand img {
+    max-width: 68px;
+  }
+  .mainHeader .container .mainControl .btn-group {
+    margin: 0 .8rem;
+  }
+  .mainHeader .container .mainControl .btn-group .btn {
+    padding: .7rem 1rem;
+    font-size: 14px;
+  }
+  .mainHeader .container .mainControl .btn-group .dropdown-toggle-split svg {
+    max-width: 14px;
+  }
+  .mainHeader .container .mainControl .btn-group .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  .mainHeader .container .mainControl .nameUser {
+    margin: 0 .8rem;
+  }
+  .mainHeader .container .mainControl .profil {
+    margin: 0 .8rem;
+  }
+  .mainHeader .container .mainControl .profil .btn-dropdown::after {
+    height: 15px;
+    width: 15px;
+  }
+  .mainHeader .container .mainControl .profil .btn-dropdown img {
+    max-width: 64px;
+  }
+  .mainHeader .container .mainControl .profil .dropdown-menu {
+    top: 120% !important;
+  }
+  .mainHeader .container .mainControl .profil .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  .mainHeader .container .mainControl .profil .dropdown-menu-center {
+    right: auto !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+  }
+  .mainContent {
+    padding-top: 164px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mainHeader .container .mainControl .nameUser {
+    display: none;
+  }
+}

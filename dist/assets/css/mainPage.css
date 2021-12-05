@@ -1,0 +1,343 @@
+/*Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Variable REKBER*/
+.mainContent .container .wrapperBanner .banner {
+  transition: .5s;
+}
+
+.mainContent .container .wrapperBanner .banner img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mainContent .container .lines {
+  display: flex;
+}
+
+.mainContent .container .lines .saldoInformation {
+  font-family: 'Montserrat', sans-serif;
+  transition: .5s;
+}
+
+.mainContent .container .lines .saldoInformation .nameCards {
+  font-weight: 600;
+}
+
+.mainContent .container .lines .saldoInformation .saldo {
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.mainContent .container .lines .saldoInformation .saldo .valueSaldo {
+  word-wrap: break-word;
+}
+
+.mainContent .container .lines .saldoInformation .wrapperButton {
+  display: flex;
+}
+
+.mainContent .container .lines .saldoInformation .wrapperButton .btns {
+  border: 1px solid #E0E0E0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 15px;
+  transition: background .3s;
+}
+
+.mainContent .container .lines .saldoInformation .wrapperButton .btns:hover {
+  background: rgba(143, 140, 140, 0.1);
+  transition: background .3s;
+}
+
+.mainContent .container .lines .saldoInformation .wrapperButton .btns svg {
+  width: 100%;
+}
+
+.mainContent .container .lines .saldoInformation .wrapperButton .btns p {
+  color: #828282;
+  font-weight: 600;
+}
+
+.mainContent .container .lines .productRekber {
+  font-family: 'Poppins', sans-serif;
+  transition: .5s;
+}
+
+.mainContent .container .lines .productRekber .nameCards {
+  font-weight: 600;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct .product {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct .product .icon {
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  background: #fff;
+  transition: background .3s;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct .product .icon:hover {
+  background: rgba(143, 140, 140, 0.1);
+  transition: background .3s;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct .product .icon svg {
+  width: 100%;
+}
+
+.mainContent .container .lines .productRekber .wrapperProduct .product .nameProduct {
+  color: #4f4f4f;
+  font-weight: 500;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .nameCards {
+  font-weight: 600;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi {
+  display: flex;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images {
+  position: relative;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .label {
+  position: absolute;
+  color: #fff;
+  border-radius: 20px 0 20px 0;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .pembeli {
+  background: #27AE60;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .penjual {
+  background: #ef2463;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .nameItems {
+  text-align: start;
+  color: #4f4f4f;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .harga {
+  color: #828282;
+}
+
+.mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .idRoom {
+  background: #ef2463;
+  border-radius: 6px;
+  width: max-content;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 0px) {
+  .mainContent .container .wrapperBanner {
+    margin-bottom: 1.5rem;
+  }
+  .mainContent .container .lines {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  .mainContent .container .lines .saldoInformation {
+    margin-bottom: 1.5rem;
+  }
+  .mainContent .container .lines .saldoInformation .nameCards {
+    font-size: 16px;
+    margin-bottom: .2rem;
+  }
+  .mainContent .container .lines .saldoInformation .saldo {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns {
+    padding: 1rem;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns:first-child {
+    margin-right: 1rem;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns svg {
+    max-width: 18px;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns p {
+    margin-top: .5rem;
+    font-size: 12px;
+  }
+  .mainContent .container .lines .productRekber .nameCards {
+    font-size: 16px;
+    margin-bottom: .2rem;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product {
+    max-width: 71.9px;
+    margin: .5rem .3rem;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon {
+    padding: 1rem 1.4rem;
+    width: max-content;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon svg {
+    max-width: 18px;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .nameProduct {
+    margin-top: .3rem;
+    font-size: 12px;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .nameCards {
+    font-size: 16px;
+    margin-bottom: .5rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi {
+    flex-direction: row;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem {
+    margin-bottom: 1rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images img {
+    max-width: 214px;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .label {
+    bottom: 0;
+    right: 0px;
+    padding: .5rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .nameItems {
+    font-size: 18px;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems {
+    margin-top: .5rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .harga {
+    font-size: 14px;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .idRoom {
+    padding: .5rem;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mainContent .container .lines {
+    flex-direction: row;
+  }
+  .mainContent .container .lines .saldoInformation {
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+    width: 40%;
+  }
+  .mainContent .container .lines .saldoInformation .nameCards {
+    font-size: 20px;
+    margin-bottom: .5rem;
+  }
+  .mainContent .container .lines .saldoInformation .saldo {
+    font-size: 38px;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns {
+    padding: 1.7rem;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns:first-child {
+    margin-right: 2rem;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns svg {
+    max-width: 28px;
+  }
+  .mainContent .container .lines .saldoInformation .wrapperButton .btns p {
+    margin-top: .5rem;
+    font-size: 14px;
+  }
+  .mainContent .container .lines .productRekber {
+    width: 60%;
+  }
+  .mainContent .container .lines .productRekber .nameCards {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .mainContent .container .lines .wrapperHistoryTransaksi {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainContent .container .lines .productRekber .wrapperProduct .product {
+    max-width: 88px;
+    margin: 1rem 1rem;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon {
+    padding: 1.6rem 2rem;
+    width: max-content;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon svg {
+    max-width: 26px;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .nameProduct {
+    margin-top: .5rem;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .mainContent .container .lines .productRekber .wrapperProduct .product {
+    max-width: 110px;
+    margin: 1rem 1rem;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon {
+    padding: 2rem 2.5rem;
+    width: max-content;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .icon svg {
+    max-width: 32px;
+  }
+  .mainContent .container .lines .productRekber .wrapperProduct .product .nameProduct {
+    margin-top: .5rem;
+    font-size: 16px;
+  }
+}

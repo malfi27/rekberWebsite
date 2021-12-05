@@ -129,7 +129,6 @@ $gray5 : rgba(224, 224, 224, 1);
                                 .label {
                                     position: absolute;
                                     color: #fff;
-                                    border-radius: 20px 0 20px 0;
                                 }
                                 .pembeli {
                                     background: #27AE60;
@@ -232,32 +231,36 @@ $gray5 : rgba(224, 224, 224, 1);
                     .wrapperTransaksi {
                         flex-direction: row;
                         .transaksi {
-                            padding: 1rem;
+                            padding: .7rem;
                             margin-right: 1rem;
                             .imgItem {
                                 margin-bottom: 1rem;
                                 .items-images {
                                     img {
                                         max-width: 214px;
+                                        border-radius: 10px;
                                     }
                                     .label {
                                         bottom: 0;
                                         right: 0px;
                                         padding: .5rem;
+                                        font-size: 8px;
+                                        border-radius: 10px 0 10px 0;
                                     }
                                 }
                             }
                             .nameItems {
-                                font-size: 18px;
+                                font-size: 14px;
                             }
                             .detailItems {
                                 margin-top: .5rem;
                                 .harga {
-                                    font-size: 14px;
+                                    font-size: 12px;
                                 }
                                 .idRoom {
                                     padding: .5rem;
-                                    font-size: 12px;
+                                    font-size: 10px;
+                                    display: none;
                                 }
                             }
                         }

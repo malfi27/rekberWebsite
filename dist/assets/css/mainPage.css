@@ -143,7 +143,6 @@
 .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .label {
   position: absolute;
   color: #fff;
-  border-radius: 20px 0 20px 0;
 }
 
 .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .pembeli {
@@ -236,7 +235,7 @@
     flex-direction: row;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi {
-    padding: 1rem;
+    padding: .7rem;
     margin-right: 1rem;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem {
@@ -244,24 +243,28 @@
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images img {
     max-width: 214px;
+    border-radius: 10px;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .imgItem .items-images .label {
     bottom: 0;
     right: 0px;
     padding: .5rem;
+    font-size: 8px;
+    border-radius: 10px 0 10px 0;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .nameItems {
-    font-size: 18px;
+    font-size: 14px;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems {
     margin-top: .5rem;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .harga {
-    font-size: 14px;
+    font-size: 12px;
   }
   .mainContent .container .lines .wrapperHistoryTransaksi .wrapperTransaksi .transaksi .detailItems .idRoom {
     padding: .5rem;
-    font-size: 12px;
+    font-size: 10px;
+    display: none;
   }
 }
 

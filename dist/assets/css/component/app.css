@@ -142,7 +142,7 @@ Resset Css
 
 @media screen and (min-width: 0px) {
   .mainHeader {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
   .mainHeader .container .rekberBrand img {
     max-width: 48px;
@@ -188,21 +188,18 @@ Resset Css
 }
 
 @media screen and (min-width: 768px) {
-  .mainHeader {
-    padding: 1.5rem 0;
-  }
   .mainHeader .container .rekberBrand img {
-    max-width: 68px;
+    max-width: 58px;
   }
   .mainHeader .container .mainControl .btn-group {
     margin: 0 .8rem;
   }
   .mainHeader .container .mainControl .btn-group .btn {
     padding: .7rem 1rem;
-    font-size: 14px;
+    font-size: 12px;
   }
   .mainHeader .container .mainControl .btn-group .dropdown-toggle-split svg {
-    max-width: 14px;
+    max-width: 12px;
   }
   .mainHeader .container .mainControl .btn-group .dropdown-menu .dropdown-item {
     font-size: 14px;
@@ -218,7 +215,7 @@ Resset Css
     width: 15px;
   }
   .mainHeader .container .mainControl .profil .btn-dropdown img {
-    max-width: 64px;
+    max-width: 54px;
   }
   .mainHeader .container .mainControl .profil .dropdown-menu {
     top: 120% !important;

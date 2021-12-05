@@ -110,6 +110,10 @@
   font-weight: 500;
 }
 
+.mainContent .container .lines .wrapperHistoryTransaksi {
+  transition: .5s;
+}
+
 .mainContent .container .lines .wrapperHistoryTransaksi .nameCards {
   font-weight: 600;
 }
@@ -175,6 +179,10 @@
   color: #fff;
   font-weight: 600;
   word-wrap: break-word;
+}
+
+.mainContent .container .lines .notificationSection {
+  transition: .5s;
 }
 
 .mainContent .container .lines .notificationSection .nameCards {

@@ -150,7 +150,7 @@ $gray5 : rgba(224, 224, 224, 1);
 
 @media screen and (min-width : 0px) {
     .mainHeader {
-        padding: 1.5rem 0;
+        padding: 1rem 0;
         .container {
             .rekberBrand {
                 img {
@@ -207,11 +207,10 @@ $gray5 : rgba(224, 224, 224, 1);
 
 @media screen and (min-width : 768px) {
     .mainHeader {
-        padding: 1.5rem 0;
         .container {
             .rekberBrand {
                 img {
-                    max-width: 68px;
+                    max-width: 58px;
                 }
             }
             .mainControl {
@@ -219,11 +218,11 @@ $gray5 : rgba(224, 224, 224, 1);
                     margin: 0 .8rem;
                     .btn {
                         padding: .7rem 1rem;
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                     .dropdown-toggle-split {
                         svg {
-                            max-width: 14px;
+                            max-width: 12px;
                         }
                     }
                     .dropdown-menu {
@@ -243,7 +242,7 @@ $gray5 : rgba(224, 224, 224, 1);
                             width: 15px;
                         }
                         img {
-                            max-width: 64px;
+                            max-width: 54px;
                         }
                     }
                     .dropdown-menu {

@@ -1,0 +1,84 @@
+/*Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*------------
+Resset Css
+------------*/
+*, ::after, ::before, h1, h2, h3, h4, h5, h6, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/*Variable REKBER*/
+#mainPage .mainContent .container {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainPage .mainContent .container h1 {
+  color: #ef2463;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#mainPage .mainContent .container p {
+  color: #4f4f4f;
+  font-weight: 500;
+  text-align: center;
+}
+
+#mainPage .mainContent .container #mainAuth {
+  margin-top: 4rem;
+}
+
+#mainPage .mainContent .container #mainAuth form .form-label {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+#mainPage .mainContent .container #mainAuth form .form-control {
+  background: #F4F5F6;
+  border-radius: 25px;
+  padding: .5rem .8rem;
+}
+
+#mainPage .mainContent .container #mainAuth form .form-control:focus {
+  box-shadow: none;
+  border-color: #ef2463;
+}
+
+#mainPage .mainContent .container #mainAuth form .form-text {
+  color: #ef2463;
+  font-family: 'Poppins', sans-serif;
+}
+
+#mainPage .mainContent .container #mainAuth form .btn {
+  width: 100%;
+  box-shadow: 0px 2px 10px rgba(239, 36, 99, 0.2);
+  border-radius: 25px;
+  padding: .7rem .7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 14px;
+  }
+  #mainAuth {
+    margin-top: 3rem !important;
+  }
+  .form-control::placeholder {
+    font-size: 12px;
+  }
+  .form-text {
+    font-size: 12px;
+  }
+}

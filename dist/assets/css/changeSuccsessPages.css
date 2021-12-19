@@ -1,0 +1,45 @@
+/*Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*------------
+Resset Css
+------------*/
+*, ::after, ::before, h1, h2, h3, h4, h5, h6, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/*Variable REKBER*/
+#mainPage .mainContent .container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#mainPage .mainContent .container h1 {
+  color: #ef2463;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+#mainPage .mainContent .container .iconImages {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+#mainPage .mainContent .container .iconImages svg {
+  width: 100%;
+  max-width: 800px;
+}
+
+#mainPage .mainContent .container .moreInfo {
+  font-family: 'Montserrat', sans-serif;
+  color: #4f4f4f;
+  font-weight: 500;
+}

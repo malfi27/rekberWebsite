@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekber - Rekening Bersama</title>
+
+    <!--Bootstrap Assets-->
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
+    <!--Component Style-->
+    <link rel="stylesheet" href="./assets/css/component/app.css">
+    <!--Style-->
+    <link rel="stylesheet" href="./assets/css/ubahKataSandi.css">
+    <!--Vendor Slick-->
+    <link rel="stylesheet" href="./assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="./assets/vendors/slick/slick-theme.css">
+</head>
+<body>
+
+
+    <div id="mainPage">
+        <section class="mainHeader fixed-top">
+
+            <div class="container">
+                <div class="rekberBrand">
+                    <img src="./assets/images/LogoRekber.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="mainContent">
+            <div class="container">
+                <h1>Kata Sandi Berhasil Di Ubah</h1>
+                <p>Silakan Masukan Kata sandi baru anda. Kali ini jangan lupa dicatat ya, supaya tidak lupa lagi!</p>
+
+                <div id="mainAuth">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="kataSandiBaru" class="form-label">Kata Sandi Baru</label>
+                            <input type="password" class="form-control" id="kataSandiBaru" aria-describedby="passwordHelp" placeholder="Minimal 8 karakter">
+                            <div id="passwordHelp" class="form-text">Pastikan kata sandi anda minimal memiliki 8 karakter</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="konfirmasiKataSandiBaru" class="form-label">Konfirmasi Kata Sandi Baru</label>
+                            <input type="password" class="form-control" id="konfirmasiKataSandiBaru" placeholder="ketik lagi kata sandi baru anda">
+                            <div id="passwordHelp" class="form-text">Bidang ini harus cocok dengan bidang di atasnya.</div>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Ubah Kata Sandi</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <!--Jqury-->
+    <script src="./assets/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!--Bootstrap Javascript-->
+    <script src="./assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Slick JS-->
+    <script src="./assets/vendors/slick/slick.min.js"></script>
+</body>
+</html>

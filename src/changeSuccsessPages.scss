@@ -1,0 +1,59 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------------
+Resset Css
+------------*/
+*,::after,::before,h1,h2,h3,h4,h5,h6,p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/*Variable REKBER*/
+$primary-color :rgba(239, 36, 99, 1);
+$hover-btn : #D41B54;
+$pink-first :rgba(253, 216, 228, 1);
+$pink-second :rgba(253, 226, 235, 1);
+$gray1 : rgba(51, 51, 51, 1);
+$gray2 : rgba(79, 79, 79, 1);
+$gray3 : rgba(130, 130, 130, 1);
+$gray4 : rgba(189, 189, 189, 1);
+$gray5 : rgba(224, 224, 224, 1);
+
+
+
+
+
+#mainPage {
+    .mainContent {
+        .container {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                color: $primary-color;
+                margin-bottom: 3rem;
+                font-weight: 600;
+            }
+            .iconImages {
+                width: 100%;
+                margin-bottom: 3rem;
+                svg {
+                    width: 100%;
+                    max-width: 800px;
+                }
+            }
+            .moreInfo {
+                font-family: 'Montserrat', sans-serif;
+                color: $gray2;
+                font-weight: 500;
+            }
+        }
+    }
+}

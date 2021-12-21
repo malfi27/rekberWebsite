@@ -43,10 +43,36 @@ $gray5 : rgba(224, 224, 224, 1);
                 color: $gray2;
                 font-weight: 500;
                 text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .alert {
+                background: #fff;
+                border-radius: 20px;
+                margin: 1rem 0;
+                .alertTitle {
+                    text-align: start;
+                    font-size: 18px;
+                    margin-bottom: 1rem;
+                }
+                .alertInfo {
+                    font-size: 16px;
+                    text-align: start;
+                    margin: 0;
+                }
+            }
+
+            .alert-danger {
+                border: 2px solid $primary-color;
+            }
+            .alert-success {
+                border: 2px solid #21A526;
+                .alertTitle {
+                    color: #21A526;
+                }
             }
 
             #mainAuth {
-                margin-top: 4rem;
                 form {
                     .form-label {
                         color: $gray2;
@@ -86,7 +112,7 @@ $gray5 : rgba(224, 224, 224, 1);
         font-size: 14px;
     }
     #mainAuth {
-        margin-top: 3rem !important;
+        // margin-top: 3rem !important;
     }
     .form-control {
         &::placeholder {
@@ -95,5 +121,13 @@ $gray5 : rgba(224, 224, 224, 1);
     }
     .form-text {
         font-size: 12px;
+    }
+    .alert {
+        .alertTitle {
+            font-size: 14px !important;
+        }
+        .alertInfo {
+            font-size: 12px !important;
+        }
     }
 }

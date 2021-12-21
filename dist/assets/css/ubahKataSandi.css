@@ -32,10 +32,37 @@ Resset Css
   color: #4f4f4f;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-#mainPage .mainContent .container #mainAuth {
-  margin-top: 4rem;
+#mainPage .mainContent .container .alert {
+  background: #fff;
+  border-radius: 20px;
+  margin: 1rem 0;
+}
+
+#mainPage .mainContent .container .alert .alertTitle {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+#mainPage .mainContent .container .alert .alertInfo {
+  font-size: 16px;
+  text-align: start;
+  margin: 0;
+}
+
+#mainPage .mainContent .container .alert-danger {
+  border: 2px solid #ef2463;
+}
+
+#mainPage .mainContent .container .alert-success {
+  border: 2px solid #21A526;
+}
+
+#mainPage .mainContent .container .alert-success .alertTitle {
+  color: #21A526;
 }
 
 #mainPage .mainContent .container #mainAuth form .form-label {
@@ -72,13 +99,16 @@ Resset Css
   p {
     font-size: 14px;
   }
-  #mainAuth {
-    margin-top: 3rem !important;
-  }
   .form-control::placeholder {
     font-size: 12px;
   }
   .form-text {
     font-size: 12px;
+  }
+  .alert .alertTitle {
+    font-size: 14px !important;
+  }
+  .alert .alertInfo {
+    font-size: 12px !important;
   }
 }

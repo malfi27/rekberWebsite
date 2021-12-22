@@ -40,7 +40,6 @@ $gray5 : rgba(224, 224, 224, 1);
         height: 100%;
         z-index: 2;
         font-family: 'Montserrat', sans-serif;
-
         .logo {
             img {
                 max-width: 74px;
@@ -70,6 +69,28 @@ $gray5 : rgba(224, 224, 224, 1);
                         box-shadow: none;
                         border-color: $primary-color;
                     }
+                }
+                .form-text {
+                    text-align: end;
+                    margin-top: .7rem;
+                    color: $gray1;
+                    font-weight: 600;
+                    font-size: 16px;
+                    a {
+                        text-decoration: none;
+                        color: $primary-color;
+                        font-weight: 600;
+                        transition: .3s;
+
+                        &:hover {
+                            color: $hover-btn;
+                            transition: .3s;
+                        }
+                    }
+                }
+                .register {
+                    text-align: center;
+                    margin-top: 1rem;
                 }
                 .btn {
                     width: 100%;
@@ -106,8 +127,13 @@ $gray5 : rgba(224, 224, 224, 1);
                 margin-top: 3rem;
                 form {
                     .btn {
-                        font-size: 20px;
+                        font-size: 18px;
                         margin-top: 1rem;
+                    }
+                    .form-control {
+                        &::placeholder {
+                            font-size: 14px;
+                        }
                     }
                 }
             }
@@ -150,7 +176,15 @@ $gray5 : rgba(224, 224, 224, 1);
     #auth {
         .wrapperAuth {
             width: 35%;
-            max-width: 600px;
+            max-width: 700px;
+        }
+    }
+}
+
+@media screen and (min-width : 1600px) {
+    #auth {
+        .wrapperAuth {
+            padding: 3rem 5rem;
         }
     }
 }

@@ -65,6 +65,31 @@ Resset Css
   border-color: #ef2463;
 }
 
+#auth .wrapperAuth .formAuth form .form-text {
+  text-align: end;
+  margin-top: .7rem;
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#auth .wrapperAuth .formAuth form .form-text a {
+  text-decoration: none;
+  color: #ef2463;
+  font-weight: 600;
+  transition: .3s;
+}
+
+#auth .wrapperAuth .formAuth form .form-text a:hover {
+  color: #D41B54;
+  transition: .3s;
+}
+
+#auth .wrapperAuth .formAuth form .register {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 #auth .wrapperAuth .formAuth form .btn {
   width: 100%;
   padding: .8rem 1rem;
@@ -94,8 +119,11 @@ Resset Css
     margin-top: 3rem;
   }
   #auth .wrapperAuth .formAuth form .btn {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 1rem;
+  }
+  #auth .wrapperAuth .formAuth form .form-control::placeholder {
+    font-size: 14px;
   }
 }
 
@@ -126,6 +154,12 @@ Resset Css
 @media screen and (min-width: 1400px) {
   #auth .wrapperAuth {
     width: 35%;
-    max-width: 600px;
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #auth .wrapperAuth {
+    padding: 3rem 5rem;
   }
 }

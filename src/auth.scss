@@ -1,0 +1,156 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------------
+Resset Css
+------------*/
+*,::after,::before,h1,h2,h3,h4,h5,h6,p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/*Variable REKBER*/
+$primary-color :rgba(239, 36, 99, 1);
+$hover-btn : #D41B54;
+$pink-first :rgba(253, 216, 228, 1);
+$pink-second :rgba(253, 226, 235, 1);
+$gray1 : rgba(51, 51, 51, 1);
+$gray2 : rgba(79, 79, 79, 1);
+$gray3 : rgba(130, 130, 130, 1);
+$gray4 : rgba(189, 189, 189, 1);
+$gray5 : rgba(224, 224, 224, 1);
+
+#auth {
+    background: url(/dist/assets/images/auth-background.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .wrapperAuth {
+        background: #fff;
+        position: relative;
+        height: 100%;
+        z-index: 2;
+        font-family: 'Montserrat', sans-serif;
+
+        .logo {
+            img {
+                max-width: 74px;
+            }
+        }
+        .titleAuth {
+            color: $primary-color;
+            font-weight: 700;
+        }
+        .paragrafAuth {
+            color: #6c757d;
+            font-weight: 600;
+        }
+        .formAuth {
+            form {
+                .form-label {
+                    color: $gray1;
+                    font-weight: 600;
+                }
+                .form-control {
+                    background: #F4F5F6;
+                    padding: .7rem 1.3rem;
+                    font-family: 'Poppins', sans-serif;
+                    border-radius: 24px;
+                    &:focus {
+                        background: #fff;
+                        box-shadow: none;
+                        border-color: $primary-color;
+                    }
+                }
+                .btn {
+                    width: 100%;
+                    padding: .8rem 1rem;
+                    font-weight: 600;
+                    border-radius: 24px;
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width : 992px) {
+    #auth {
+        .wrapperAuth {
+            width: 100%;
+            padding: 2rem;
+
+            .logo {
+                margin-bottom: 4rem;
+                img {
+                    max-width: 52px;
+                }
+            }
+            .titleAuth {
+                font-size: 46px;
+                margin-bottom: 1rem;
+            }
+            .paragrafAuth {
+                font-size: 16px;
+            }
+            .formAuth {
+                margin-top: 3rem;
+                form {
+                    .btn {
+                        font-size: 20px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width : 992px) {
+    #auth {
+        .wrapperAuth {
+            width: 50%;
+            padding: 3rem 3rem;
+    
+            .logo {
+                margin-bottom: 5rem;
+            }
+            .titleAuth {
+                font-size: 64px;
+                margin-bottom: 1rem;
+            }
+            .paragrafAuth {
+                font-size: 20px;
+            }
+            .formAuth {
+                margin-top: 3rem;
+                form {
+                    .btn {
+                        font-size: 20px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width : 1400px) {
+    #auth {
+        .wrapperAuth {
+            width: 35%;
+            max-width: 600px;
+        }
+    }
+}

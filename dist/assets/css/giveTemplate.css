@@ -1,0 +1,119 @@
+/*Font Import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*, ::after, ::before, h1, h2, h3, h4, h5, h6, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#giveTemplate {
+  width: 100%;
+  height: 100vh;
+}
+
+#giveTemplate .wrapper {
+  background-image: url(/dist/assets/images/givebackground.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 475px;
+  margin: auto;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#giveTemplate .wrapper .notice {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 2px #EF9109;
+  margin-bottom: 2rem;
+}
+
+#giveTemplate .wrapper .boxHadiah {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+#giveTemplate .wrapper .boxHadiah .iconHadiah {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#giveTemplate .wrapper .boxHadiah .iconHadiah img {
+  width: 100%;
+  max-width: 140px;
+}
+
+#giveTemplate .wrapper .boxHadiah .namaHadiah {
+  font-weight: 800;
+  margin-bottom: .7rem;
+}
+
+#giveTemplate .wrapper .boxHadiah .keteranganHadiah {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 1.4rem;
+}
+
+#giveTemplate .wrapper .boxHadiah .input input {
+  padding: .7rem;
+  background-color: #EAEAEA;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+#giveTemplate .wrapper .boxHadiah .input input::placeholder {
+  color: #979797;
+}
+
+#giveTemplate .wrapper .boxHadiah .input .info {
+  font-size: 12px;
+  text-align: start;
+}
+
+#giveTemplate .wrapper .boxHadiah .input .button {
+  background-color: #EF2463;
+  padding: .7rem;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: 800;
+  border: none;
+  color: #fff;
+}
+
+#giveTemplate .wrapper .selengkapnyaButton {
+  display: flex;
+  justify-content: center;
+}
+
+#giveTemplate .wrapper .selengkapnyaButton .selengakpnya {
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: .7rem 2rem;
+  border-radius: 40px;
+  background-color: #F29E08;
+  font-weight: 600;
+}
